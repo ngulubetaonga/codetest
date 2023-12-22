@@ -15,7 +15,7 @@ int main() {
             std::cout << "ray" std:: endl;
         }
         else if (i % 5 == 0) {
-            std::cout << "ry" std: : endl;
+            std::cout << "roy" std: : endl;
         }
         else {
             std::cout << i << std: : endl;
