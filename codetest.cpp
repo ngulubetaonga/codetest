@@ -1,4 +1,4 @@
-#include <string>
+#include <iostream>
 #include <string>
 int main() {
     int start, end;
@@ -7,7 +7,7 @@ int main() {
     std:: cout << "enter the end number:";
     std:: cin >> end;
 
-    for (int i = start; 1 <= end; i++) {
+    for (int i = start; i <= end; i++) {
         if (i % 3 == 0 && i % 5 == 0) {
             std::cout << "rayroy" << std::endl;
         }
@@ -20,3 +20,5 @@ int main() {
         else {
             std::cout << i << std: : endl;
      }
+    } return 0
+        }
